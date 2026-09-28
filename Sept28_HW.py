@@ -37,7 +37,7 @@ while Menu != "2":
         for row in Choice:
             for seat in row:
                 if seat == "O":
-                    available = available + 1
+                    available = available + 2
         print("Available seats:", available)
 
         booked = 0
